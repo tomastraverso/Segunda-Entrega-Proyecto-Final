@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://bootswatch.com/5/litera/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <form id="idForm">
+      <input type="text" id="idUser" placeholder="UserName" name="user">
+      <input type="password" id="idPassword" placeholder="Password" name="password">
+      <input type="email" id="idEmail" placeholder="Email" name="email">
+      <button type="submit" class="btn btn-secondary">Crear Usuario</button>
+    </form><br><br>
+  </div>
+  <button id="idbotonMostrarUsers" class="btn btn-secondary">Mostrar Usuarios</button><br>
+  <div id="divUsuarios" class="row"></div>
+  <div class="tituloProducto">
+    <h2>Lista de Productos:</h2>
+  </div>
+  <div class="producto" id="producto"></div>
+  <div class="carrito" id="carrito">
+    <h3>Carrito de Compras:</h3>
+    <button type="submit" class="btn btn-danger" id="botonMostrarCarrito">Mostrar Carrito</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
